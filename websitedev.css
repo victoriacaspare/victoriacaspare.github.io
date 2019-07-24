@@ -1,0 +1,68 @@
+#quote{
+  background-color: darkblue;
+  color:lavender;
+  font-size: 60px;
+}
+#fact{
+
+}
+#picture{
+    outline:dotted black;
+
+}
+#map{
+  color: darkblue;
+}
+body{
+  background-color: lightblue;
+}
+.topnav {
+  background-color: darkblue;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: ;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+figure
+{
+display: block;
+}
+
+
+.blink {
+    animation-duration: 0.5s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: steps(5, start);
+}
+@keyframes blink {
+    80% {
+       visibility: hidden;
+    }
+}
